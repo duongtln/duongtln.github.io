@@ -99,7 +99,9 @@ h2 em {
     }
 
     .tt img {
-        width: 100px;
+        margin-top: -40px;
+        width: 150px;
+        height: 150px;
     }
 
     ul.navbar-nav.ml-auto {
@@ -108,8 +110,5 @@ h2 em {
 
     .tt h2 {
         margin-top: -30px;
-    }
-    .tt img {
-        margin-top: -40px;
     }
 }
