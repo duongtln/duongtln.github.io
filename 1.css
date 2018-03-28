@@ -30,7 +30,12 @@ li.nav-item {
         margin-bottom: -55px;
         text-align: center;
     }
+
+    .tt img {
+        width: 100px;
+    }
 }
+
 
 
 /*khoitt1*/
@@ -50,4 +55,46 @@ li.nav-item {
     width: 50%;
     height: 100%;
     background: #e4555b;
+    z-index: 1;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 140px;
+}
+
+.tt img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.tt p {
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.tt a {
+    width: 180px;
+    background: #f4e262cc;
+    border: none;
+    border-radius: 0px;
+}
+
+.tt a:hover {
+    color: white;
+    font-weight: bold;
 }
