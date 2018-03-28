@@ -127,11 +127,6 @@ hr {
     margin-left: 0px;
 }
 
-h3.tieudecap3 {
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #000000ba;
-}
 
 .khoittnho.text-sm-right.text-xs-center {
     background: -webkit-linear-gradient(left, rgba(243, 230, 221, 0), rgba(228, 239, 241, 0.44), rgba(175, 104, 104, 0.12));
@@ -147,6 +142,27 @@ h3.tieudecap3 {
     padding: 5px 10px 0px 10px;
 }
 
+h3.tieudecap3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000ba;
+}
+
+span.motaqt {
+    font-style: italic;
+    font-weight: bold;
+    font-family: unset;
+    color: #608a92;
+}
+
+span.time {
+    font-size: 13px;
+    color: #444444;
+}
+
+p {
+    font-weight: lighter;
+}
 
 @media (max-width: 576px) {
     * {}
@@ -176,5 +192,9 @@ h3.tieudecap3 {
 
     .tt p {
         font-size: 10px;
+    }
+
+    hr.hr-danger-right {
+        margin-left: 0;
     }
 }
