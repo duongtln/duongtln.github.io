@@ -81,6 +81,10 @@ li.nav-item {
     font-weight: bold;
 }
 
+.edu {
+    background: rgba(0, 123, 255, 0.25);
+}
+
 .col-sm-12.tieudeto.text-xs-center {
     text-align: center;
 }
@@ -131,15 +135,21 @@ hr {
 .khoittnho.text-sm-right.text-xs-center {
     background: -webkit-linear-gradient(left, rgba(243, 230, 221, 0), rgba(228, 239, 241, 0.44), rgba(175, 104, 104, 0.12));
     line-height: 2.5em;
-    box-shadow: 5px 5px 5px #ececd4;
+    box-shadow: 5px 5px 5px #828275;
     padding: 5px 10px 0px 10px;
 }
 
 .khoittnho.text-sm-left.text-xs-center {
     background: -webkit-linear-gradient(right, rgba(243, 230, 221, 0), rgba(228, 239, 241, 0.44), rgba(175, 104, 104, 0.12));
     line-height: 2.5em;
-    box-shadow: 5px 5px 5px #ececd4;
+    box-shadow: 5px 5px 5px #828275;
     padding: 5px 10px 0px 10px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 70px;
 }
 
 h3.tieudecap3 {
