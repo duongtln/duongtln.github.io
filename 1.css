@@ -1,0 +1,26 @@
+    nav.navbar.navbar-expand-lg.navbar-light.bg-inverse.navbar-fixed-top {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    background: white!important;
+}
+
+a.nav-link {
+    font-family: segoe ui;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #101010;
+    line-height: 79px;
+}
+
+li.nav-item {
+    padding: 0;
+    margin: 0 5px;
+}
+
+@media (max-width: 576px) {
+    * {}
+    a.nav-link {
+        margin-bottom: -55px;
+        text-align: center;
+    }
