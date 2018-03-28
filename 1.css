@@ -5,6 +5,8 @@ html {
 }
 
 
+
+
 /*Menutop*/
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
@@ -38,6 +40,8 @@ li.nav-item {
 
 
 
+
+
 /*khoitt1*/
 
 .khoitt1 {
@@ -67,8 +71,9 @@ li.nav-item {
 .tt img {
     height: 200px;
     width: 200px;
-    border-radius: 100px;
+    border-radius: 50%;
     margin-bottom: 50px;
+    background: #d3b2b2;
 }
 
 .tt h2 {
@@ -97,4 +102,8 @@ li.nav-item {
 .tt a:hover {
     color: white;
     font-weight: bold;
+}
+
+.col-sm-12.tieudeto.text-xs-center {
+    text-align: center;
 }
