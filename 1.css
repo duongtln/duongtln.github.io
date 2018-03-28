@@ -22,7 +22,7 @@ li.nav-item {
 }
 
 .khoitt1 {
-    height: 125%;
+    height: auto;
     width: 100%;
     background: #e9585f;
     position: relative;
@@ -42,7 +42,7 @@ li.nav-item {
 .tt {
     z-index: 2;
     position: relative;
-    padding-top: 165px;
+    padding: 50px 0px;
 }
 
 .tt img {
@@ -109,6 +109,15 @@ h2 em {
     }
 
     .tt h2 {
+        font-size: 20px;
         margin-top: -30px;
+    }
+
+    h2 em {
+        font-size: 15px;
+    }
+
+    .tt p {
+        font-size: 10px;
     }
 }
