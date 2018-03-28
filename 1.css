@@ -24,7 +24,7 @@ li.nav-item {
 .khoitt1 {
     height: auto;
     width: 100%;
-    background: #e9585f;
+    background: #e4555bde;
     position: relative;
 }
 
@@ -42,7 +42,7 @@ li.nav-item {
 .tt {
     z-index: 2;
     position: relative;
-    padding: 50px 0px;
+    padding: 150px 0px;
 }
 
 .tt img {
@@ -79,6 +79,34 @@ li.nav-item {
 .tt a:hover {
     color: white;
     font-weight: bold;
+}
+
+.xuong {
+    width: 40px;
+    height: 77px;
+    border: 1px white solid;
+    position: absolute;
+    left: 48%;
+    border-radius: 30px;
+    bottom: 0%;
+    background: #66339929;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.xuong:hover {
+    bottom: 2%;
+}
+
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 60%;
+    margin-left: -2%;
 }
 
 
@@ -194,5 +222,9 @@ p {
 
     hr.hr-danger-right {
         margin-left: 0;
+    }
+
+    .xuong {
+        margin-left: -15px;
     }
 }
