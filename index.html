@@ -12,6 +12,17 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12&appId=180061195966065&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="menutop">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
@@ -132,6 +143,20 @@
                     </div>
                 </div>
                 <!-- End col 4/2 -->
+            </div>
+        </div>
+    </div>
+    <div class="khoicomment">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-xs-center">
+    					
+    				</h1>
+                    <div class="commentfb">
+                        <div class="fb-comments" data-href="https://duongtln.github.io/" data-width="576" data-numposts="5"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
