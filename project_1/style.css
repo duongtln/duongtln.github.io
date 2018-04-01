@@ -1,0 +1,256 @@
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#cover {
+    background: linear-gradient(to right, #acbed3, #4a0079, #08232b);
+    /*url(assets/images/card3.jpg) bottom center no-repeat;*/
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.display-3.title {
+    /*opacity: 0;*/
+    animation: title_eff .6s ease forwards;
+}
+
+@-webkit-keyframes title_eff {
+    from {
+        transform: translateX(-100px);
+        opacity: 0
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1
+    }
+}
+
+.lead.discribe {
+    /*opacity: 0;*/
+    animation: discribe_eff .6s ease forwards;
+}
+
+@-webkit-keyframes discribe_eff {
+    from {
+        transform: translateX(100px);
+        opacity: 0
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1
+    }
+}
+
+
+form.form-inline {
+    margin-left: 120px;
+}
+
+.form-group {
+    padding: 0px 5px;
+}
+
+.form-inline {
+    /*opacity: 0;*/
+    animation: form_eff .6s ease forwards;
+}
+
+@-webkit-keyframes form_eff {
+    from {
+        transform: translateY(100px);
+        opacity: 0
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+nav#nav-main {
+    background: #EFEFEF!important;
+}
+
+.navigation {
+    /*opacity: 0;*/
+    animation: navigation_eff .6s ease forwards;
+}
+
+@-webkit-keyframes navigation_eff {
+    from {
+        transform: translateY(-100px);
+        opacity: 0
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+
+.menufixed {
+    top: 0;
+    position: fixed;
+    padding: 50px;
+    height: 60px;
+    transition: .4s;
+    z-index: 2;
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#what-we-do {
+    opacity: 0;
+}
+
+.whatwedo_effect {
+    animation: cdlen .5s ease forwards;
+}
+
+@-webkit-keyframes cdlen {
+    from {
+        transform: translateY(100px);
+        opacity: 0
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+#about {
+    background: linear-gradient(to bottom, #ffffff, #b983dc, #010112);
+    /*url(assets/images/aboutme.jpg) center center no-repeat;*/
+    background-size: cover;
+}
+
+.col-md-6 {
+    opacity: 0;
+}
+
+.about-text {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+.about_effect {
+    animation: about_top .6s ease forwards;
+}
+
+@-webkit-keyframes about_top {
+    from {
+        transform: translateX(100px);
+        opacity: 0
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1
+    }
+}
+
+#carousel_news {
+    opacity: 0;
+}
+
+.carousel_effect {
+    animation: carousel_top .6s ease forwards;
+}
+
+@-webkit-keyframes carousel_top {
+    from {
+        transform: translateY(100px);
+        opacity: 0
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+
+ul.pagination {
+    justify-content: center;
+}
+
+#footer-main {
+    background: #efefef;
+    color: #1d1919;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+ul.list-unstyled {
+    line-height: 2.5em;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+i.fab,
+i.far {
+    font-size: 35px;
+    margin: 20px;
+}
+
+
+a.nav-link {
+    color: #525660!important;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2b80dc75;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    * {}
+    h1.display-3 {
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .col-sm-10.offset-sm-1 p {
+        font-size: 15px;
+    }
+    form.form-inline {
+        margin: 0 10px;
+    }
+
+    button.btn.btn-success.btn-lg {
+        margin: 0 70px;
+    }
+
+    a.btn.btn-outline-secondary {
+        margin: 5px 5px;
+    }
+    ul.list-unstyled {
+        text-align: center;
+        font-size: 17px;
+        border: 1px solid #28191912;
+        box-shadow: 5px 5px 5px #1d2124;
+    }
+
+    .col-sm-3 p {
+        text-align: center;
+    }
+}
